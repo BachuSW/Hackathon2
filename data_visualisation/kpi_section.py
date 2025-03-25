@@ -12,7 +12,7 @@ def display_kpi_section(clients, memberships):
         memberships (pd.DataFrame): Processed memberships data
     """
     # Section header
-    st.markdown("---")
+    # st.markdown("---")
     st.subheader("📊 Key Performance Indicators")
 
     # Create columns for visualizations
