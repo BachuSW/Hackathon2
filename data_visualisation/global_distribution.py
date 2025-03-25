@@ -33,10 +33,7 @@ def display_global_distribution(clients):
     Parameters:
         clients (pd.DataFrame): Processed clients data with country codes
     """
-    # Section header
-    st.markdown("---")
-    st.subheader("🌐 Client World Distribution")
-
+    
     # Count clients by country
     country_counts = clients['country_code'].value_counts().reset_index()
     country_counts.columns = ['country_code', 'count']
