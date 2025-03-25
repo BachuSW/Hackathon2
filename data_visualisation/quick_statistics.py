@@ -11,7 +11,7 @@ def display_quick_statistics(clients, merged_data, transactions):
         transactions (pd.DataFrame): Processed transactions data
     """
     # Section header
-    st.markdown("---")
+    # st.markdown("---")
     st.subheader("🚀 Quick Statistics")
 
     # Create columns for metrics
