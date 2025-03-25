@@ -11,7 +11,7 @@ def display_monthly_statistics(clients, memberships, merged_data):
         merged_data (pd.DataFrame): Merged clients and memberships data
     """
     # Section header
-    st.markdown("---")
+    # st.markdown("---")
     st.subheader("📅 Monthly Statistics")
 
     # Month names for display
