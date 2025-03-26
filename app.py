@@ -5,8 +5,6 @@ from data_visualisation.quick_statistics import display_quick_statistics
 from data_visualisation.temporal_trends import display_temporal_trends
 from data_visualisation.monthly_statistics import display_monthly_statistics
 
-from data_visualisation.display_monthly_statistics_fast import display_combined_tables
-
 from data_visualisation.kpi_section import display_kpi_section
 from data_visualisation.global_distribution import display_global_distribution
 from data_visualisation.demographic_insights import display_demographic_insights
@@ -166,7 +164,7 @@ def main():
         if page == "📊 Overview":
             st.header("Overview Dashboard")
             display_quick_statistics(clients, merged_data, transactions)
-            display_combined_tables()
+            display_monthly_statistics()
             display_kpi_section(clients, memberships)
             display_temporal_trends(clients, memberships)
         else:
