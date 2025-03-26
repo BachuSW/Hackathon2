@@ -164,7 +164,7 @@ def main():
         if page == "📊 Overview":
             st.header("Overview Dashboard")
             display_quick_statistics(clients, merged_data, transactions)
-            display_monthly_statistics()
+            display_monthly_statistics(clients, merged_data, transactions)
             display_kpi_section(clients, memberships)
             display_temporal_trends(clients, memberships)
         else:
